@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylecf.css" />
+    <link
+      rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- <style>
+      .section-slider1 {
+        width: 1000px;
+        border-radius: 5px;
+        padding: 20px 0px;
+        margin: auto;
+      }
+    </style> -->
+  </head>
+  <body>
+    <header id="header">
+      <div class="left">
+        <div class="logo"><img src="assest/img/coffe.jpg" alt="" /></div>
+        <nav>
+          <a href="#">healthy food</a>
+          <a href="#">sport</a>
+          <a href="#">coffee</a>
+          <a href="#">home work</a>
+          <a href="#">home</a>
+        </nav>
+      </div>
+      <div class="right">
+        <a class="login" href="#">login</a>
+        <a class="register" href="#">register</a>
+      </div>
+      <i class="ion-navicon-round"></i>
+    </header>
+    <main style="border-radius: 5px">
+      <section class="section-slider1">
+        <div
+          class="swiffy-slider slider-item-ratio slider-item-ratio-16x9 slider-nav-animation slider-nav-animation-fadein slider-item-first-visible"
+          id="swiffy-animation"
+        >
+          <ul class="slider-container" id="container1">
+            <li id="slide1" class="slide-visible">
+              <img src="assest/img/cup.jpg" alt="..." loading="lazy" />
+            </li>
+            <li id="slide2">
+              <img src="assest/img/coffe23.jpg" alt="..." loading="lazy" />
+            </li>
+            <li id="slide3">
+              <img src="assest/img/Latte-Art.jpg" alt="..." loading="lazy" />
+            </li>
+          </ul>
+
+          <button
+            type="button"
+            class="slider-nav"
+            aria-label="Go to previous"
+          ></button>
+          <button
+            type="button"
+            class="slider-nav slider-nav-next"
+            aria-label="Go to next"
+          ></button>
+
+          <div class="slider-indicators">
+            <button aria-label="Go to slide" class="active"></button>
+            <button aria-label="Go to slide"></button>
+            <button aria-label="Go to slide"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <main>
+      <section id="maincategory">
+        <div id="scale">
+          <a href="#" class="item">
+            <i class="ion-coffee"></i>
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </a>
+          <a href="#" class="item">
+            <i class="ion-icecream"></i>
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </a>
+          <a href="#" class="item">
+            <i class="ion-pizza"></i>
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </a>
+          <a href="#" class="item">
+            <i class="ion-beer"></i>
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
